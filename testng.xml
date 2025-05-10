@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+  
+    <parameter name="emailId" value="lengaresuraj@gmail.com" />
+  	<parameter name="password" value="Suraj@123" />
+    <parameter name="resumePath" value="D:\Automation Projects\Selenium Projects\Naukri Project Resumes\Suraj-Lengare-Resume_Automation.pdf" />
+    <classes>
+      <class name="com.naukri.testclasses.TC_ProfilePageTest"/>
+    </classes>
+  </test> 
+</suite> 
