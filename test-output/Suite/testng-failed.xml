@@ -4,39 +4,17 @@
   <test thread-count="5" name="Test1(failed)">
     <parameter name="password" value="Suraj@123"/>
     <parameter name="emailId" value="lengaresuraj@gmail.com"/>
-    <parameter name="resumePath" value="D:\Automation Projects\Selenium Projects\Naukri Project Resumes\Suraj-Lengare-Resume_Automation.pdf"/>
+    <parameter name="resumePath" value="./resumes/Suraj-Lengare-Resume_Automation.pdf"/>
     <classes>
       <class name="com.naukri.testclasses.TC_ProfilePageTest">
         <methods>
-          <include name="updateCareerProfile"/>
           <include name="quitDriver"/>
           <include name="launchDriver"/>
-          <include name="aftTest"/>
           <include name="logout"/>
-          <include name="bforTest"/>
           <include name="login"/>
-          <include name="updateResume"/>
+          <include name="updateResume" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.naukri.testclasses.TC_ProfilePageTest -->
     </classes>
   </test> <!-- Test1(failed) -->
-  <test thread-count="5" name="Test2(failed)">
-    <parameter name="password" value="Suraj@123"/>
-    <parameter name="emailId" value="lengaresuraj@gmail.com"/>
-    <parameter name="resumePath" value="D:\Automation Projects\Selenium Projects\Naukri Project Resumes\Suraj-Lengare-Resume_Automation.pdf"/>
-    <classes>
-      <class name="com.naukri.testclasses.TC_ProfilePageTest">
-        <methods>
-          <include name="updateCareerProfile"/>
-          <include name="quitDriver"/>
-          <include name="launchDriver"/>
-          <include name="aftTest"/>
-          <include name="logout"/>
-          <include name="bforTest"/>
-          <include name="login"/>
-          <include name="updateResume"/>
-        </methods>
-      </class> <!-- com.naukri.testclasses.TC_ProfilePageTest -->
-    </classes>
-  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

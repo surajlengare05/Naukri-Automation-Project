@@ -5,6 +5,7 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.File;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -100,8 +101,13 @@ public class ProfilePage
 	
 	public void uploadResume(String filePath) throws AWTException, InterruptedException
 	{
+		//Converting relative file path to absolute path 
+		File file = new File(filePath);
+		String absolutePath = file.getAbsolutePath();
+		
+		System.out.println(absolutePath);
 		Thread.sleep(3000);
-		update_resume_btn.sendKeys(filePath);
+		update_resume_btn.sendKeys(absolutePath);
 		Thread.sleep(3000);
 	}
 	

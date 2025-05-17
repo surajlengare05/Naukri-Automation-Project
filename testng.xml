@@ -5,7 +5,9 @@
   
     <parameter name="emailId" value="lengaresuraj@gmail.com" />
   	<parameter name="password" value="Suraj@123" />
-    <parameter name="resumePath" value="D:\Automation Projects\Selenium Projects\Naukri Project Resumes\Suraj-Lengare-Resume_Automation.pdf" />
+  	<parameter name="resumePath" value="resumes/Suraj-Lengare-Resume_Automation.pdf" />
+  	<!-- <parameter name="resumePath" value="D:\Automation Projects\Selenium Projects\Naukri Automation Project\NaukriAutomation\resumes\Suraj-Lengare-Resume_Automation.pdf" /> -->
+    <!-- <parameter name="resumePath" value="D:\Automation Projects\Selenium Projects\Naukri Project Resumes\Suraj-Lengare-Resume_Automation.pdf" /> --> 
     <classes>
       <class name="com.naukri.testclasses.TC_ProfilePageTest"/>
     </classes>
