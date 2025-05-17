@@ -100,36 +100,9 @@ public class ProfilePage
 	
 	public void uploadResume(String filePath) throws AWTException, InterruptedException
 	{
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		update_resume_btn.sendKeys(filePath);
-		Thread.sleep(2000);
-
-		
-		/* // Upload Resume using Robot class
-		update_resume_btn.click();
-		
-		Thread.sleep(2000);
-
-        // Set file path to clipboard
-        StringSelection selection = new StringSelection(filePath);
-        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
-
-        // Use Robot to paste path and press Enter
-        Robot robot = new Robot();
-
-        // Press CTRL+V to paste
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-
-        Thread.sleep(500); 
-
-        // Press Enter
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
-
-        Thread.sleep(2000);*/
+		Thread.sleep(3000);
 	}
 	
 	public String getResumeName() 
