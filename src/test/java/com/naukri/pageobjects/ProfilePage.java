@@ -100,7 +100,10 @@ public class ProfilePage
 	
 	public void uploadResume(String filePath) throws AWTException, InterruptedException
 	{
+		Thread.sleep(2000);
 		update_resume_btn.sendKeys(filePath);
+		Thread.sleep(2000);
+
 		
 		/* // Upload Resume using Robot class
 		update_resume_btn.click();
