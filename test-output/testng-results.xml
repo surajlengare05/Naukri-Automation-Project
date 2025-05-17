@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-10T20:45:23 IST" name="Suite" finished-at="2025-05-10T20:45:55 IST" duration-ms="31048">
+  <suite started-at="2025-05-11T20:23:07 IST" name="Suite" finished-at="2025-05-11T20:23:35 IST" duration-ms="28088">
     <groups>
     </groups>
-    <test started-at="2025-05-10T20:45:23 IST" name="Test1" finished-at="2025-05-10T20:45:55 IST" duration-ms="31048">
+    <test started-at="2025-05-11T20:23:07 IST" name="Test1" finished-at="2025-05-11T20:23:35 IST" duration-ms="28088">
       <class name="com.naukri.testclasses.TC_ProfilePageTest">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-10T20:45:23 IST" name="launchDriver" finished-at="2025-05-10T20:45:31 IST" duration-ms="7658" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-11T20:23:07 IST" name="launchDriver" finished-at="2025-05-11T20:23:13 IST" duration-ms="6559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-10T20:45:31 IST" name="login" finished-at="2025-05-10T20:45:32 IST" duration-ms="661" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-11T20:23:13 IST" name="login" finished-at="2025-05-11T20:23:14 IST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="updateCareerProfile()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-10T20:45:32 IST" name="updateCareerProfile" finished-at="2025-05-10T20:45:41 IST" duration-ms="9474" status="PASS">
+        <test-method signature="updateCareerProfile()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-11T20:23:14 IST" name="updateCareerProfile" finished-at="2025-05-11T20:23:22 IST" duration-ms="8647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateCareerProfile -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-10T20:45:41 IST" name="logout" finished-at="2025-05-10T20:45:44 IST" duration-ms="2472" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-11T20:23:22 IST" name="logout" finished-at="2025-05-11T20:23:25 IST" duration-ms="2356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-10T20:45:44 IST" name="login" finished-at="2025-05-10T20:45:44 IST" duration-ms="704" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-11T20:23:25 IST" name="login" finished-at="2025-05-11T20:23:25 IST" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="updateResume(java.lang.String)[pri:1, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-10T20:45:44 IST" name="updateResume" finished-at="2025-05-10T20:45:52 IST" duration-ms="7097" status="PASS">
+        <test-method signature="updateResume(java.lang.String)[pri:1, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-11T20:23:25 IST" name="updateResume" finished-at="2025-05-11T20:23:32 IST" duration-ms="6694" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,11 +38,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateResume -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-10T20:45:52 IST" name="logout" finished-at="2025-05-10T20:45:54 IST" duration-ms="2478" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-11T20:23:32 IST" name="logout" finished-at="2025-05-11T20:23:34 IST" duration-ms="2355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-10T20:45:54 IST" name="quitDriver" finished-at="2025-05-10T20:45:55 IST" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.naukri.testclasses.TC_ProfilePageTest@7ec7ffd3]" started-at="2025-05-11T20:23:34 IST" name="quitDriver" finished-at="2025-05-11T20:23:35 IST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

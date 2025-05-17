@@ -46,7 +46,8 @@ public class ProfilePage
 	@FindBy(xpath = "//span[@class='text' and text()='Resume']")
 	WebElement resume_listItem;
 	
-	@FindBy(xpath = "//input[@value='Update resume']")
+	//@FindBy(xpath = "//input[@value='Update resume']")
+	@FindBy(xpath = "//input[@type='file' and @id='attachCV']")
 	WebElement update_resume_btn;
 	
 	@FindBy(xpath = "//div[@class='truncate exten']")
@@ -99,6 +100,9 @@ public class ProfilePage
 	
 	public void uploadResume(String filePath) throws AWTException, InterruptedException
 	{
+		update_resume_btn.sendKeys(filePath);
+		
+		/* // Upload Resume using Robot class
 		update_resume_btn.click();
 		
 		Thread.sleep(2000);
@@ -122,7 +126,7 @@ public class ProfilePage
         robot.keyPress(KeyEvent.VK_ENTER);
         robot.keyRelease(KeyEvent.VK_ENTER);
 
-        Thread.sleep(2000);
+        Thread.sleep(2000);*/
 	}
 	
 	public String getResumeName() 
