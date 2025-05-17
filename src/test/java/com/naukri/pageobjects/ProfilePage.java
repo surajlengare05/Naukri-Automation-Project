@@ -47,7 +47,6 @@ public class ProfilePage
 	@FindBy(xpath = "//span[@class='text' and text()='Resume']")
 	WebElement resume_listItem;
 	
-	//@FindBy(xpath = "//input[@value='Update resume']")
 	@FindBy(xpath = "//input[@type='file' and @id='attachCV']")
 	WebElement update_resume_btn;
 	
@@ -104,8 +103,8 @@ public class ProfilePage
 		//Converting relative file path to absolute path 
 		File file = new File(filePath);
 		String absolutePath = file.getAbsolutePath();
-		
 		System.out.println(absolutePath);
+		
 		Thread.sleep(3000);
 		update_resume_btn.sendKeys(absolutePath);
 		Thread.sleep(3000);
