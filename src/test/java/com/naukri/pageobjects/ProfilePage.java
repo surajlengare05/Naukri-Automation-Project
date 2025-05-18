@@ -103,7 +103,7 @@ public class ProfilePage
 		//Converting relative file path to absolute path 
 		File file = new File(filePath);
 		String absolutePath = file.getAbsolutePath();
-		System.out.println(absolutePath);
+		System.out.println("Absolute path = " + absolutePath);
 		
 		Thread.sleep(3000);
 		update_resume_btn.sendKeys(absolutePath);
