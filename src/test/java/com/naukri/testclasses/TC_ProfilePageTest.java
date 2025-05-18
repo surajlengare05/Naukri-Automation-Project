@@ -51,6 +51,8 @@ public class TC_ProfilePageTest
 		driver.get("https://www.naukri.com/");
 		System.out.println("Url opened");
 		Thread.sleep(5000);
+		System.out.println(driver.getPageSource());
+
 	}
 	
 	
