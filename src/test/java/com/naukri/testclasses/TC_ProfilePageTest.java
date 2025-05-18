@@ -43,7 +43,7 @@ public class TC_ProfilePageTest
         options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
         options.setExperimentalOption("useAutomationExtension", false); 
         
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(options);
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
