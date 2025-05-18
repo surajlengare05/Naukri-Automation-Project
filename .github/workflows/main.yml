@@ -1,0 +1,23 @@
+name: Naukri Automation Workflow
+
+on:
+  schedule:
+    - cron: '30 3 * * *'  # Runs daily at 3:30 AM UTC (9:00 AM IST)
+  workflow_dispatch:       # Allows manual triggering of the workflow
+
+jobs:
+  naukri-automation-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Build and Run Tests
+        run: mvn clean test -DsuiteXmlFile=testng.xml
