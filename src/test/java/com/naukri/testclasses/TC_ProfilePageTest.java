@@ -22,6 +22,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
 
 public class TC_ProfilePageTest 
 {
@@ -37,6 +38,8 @@ public class TC_ProfilePageTest
         options.addArguments("--no-sandbox"); // Bypass OS security model
         options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
         options.addArguments("--disable-gpu"); // Applicable to Windows OS only
+        options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
+        options.setExperimentalOption("useAutomationExtension", false);
         
 		driver = new ChromeDriver(options);
 		
