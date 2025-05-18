@@ -50,7 +50,7 @@ public class TC_ProfilePageTest
 		
 		driver.get("https://www.naukri.com/");
 		System.out.println("Url opened");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 	}
 	
 	
@@ -61,6 +61,7 @@ public class TC_ProfilePageTest
 		LoginPage loginPg = new LoginPage(driver);
 		
 		loginPg.clickLoginLink();
+		System.out.println("clickd on login link");
 		loginPg.enterEmail("lengaresuraj@gmail.com");
 		loginPg.enterPassword("Suraj@123");
 		loginPg.clickLoginBtn();
