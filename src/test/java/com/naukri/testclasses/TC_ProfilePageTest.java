@@ -38,10 +38,10 @@ public class TC_ProfilePageTest
         options.addArguments("--no-sandbox"); // Bypass OS security model
         options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
         options.addArguments("--disable-gpu"); // Applicable to Windows OS only
-        /*options.addArguments("--window-size=1920,1080");
+        options.addArguments("--window-size=1920,1080");
         options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36");
         options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
-        options.setExperimentalOption("useAutomationExtension", false);*/
+        options.setExperimentalOption("useAutomationExtension", false);
         
 		driver = new ChromeDriver(options);
 		
@@ -50,7 +50,9 @@ public class TC_ProfilePageTest
 		
 		driver.get("https://www.naukri.com/");
 		System.out.println("Url opened");
-		Thread.sleep(2000);
+		Thread.sleep(8000);
+		System.out.println(driver.getPageSource());
+
 	}
 	
 	
