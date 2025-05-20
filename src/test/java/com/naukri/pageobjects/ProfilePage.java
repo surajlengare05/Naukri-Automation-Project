@@ -30,7 +30,7 @@ public class ProfilePage
 	@FindBy(xpath = "//span[@class='text' and text()='Career profile']")
 	WebElement career_profile_listItem;
 	
-    @FindBy(xpath = "//span[text()='Career profile']//following-sibling::span")
+    @FindBy(xpath = "//span[text()='Career profile']//following-sibling::span[1]")
 	WebElement career_profile_edit_icon;
     
     @FindBy(xpath = "//form[@id='desiredProfileForm']")
