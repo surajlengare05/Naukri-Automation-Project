@@ -81,7 +81,8 @@ public class TC_ProfilePageTest
 		profilePg.clickCareerProfileListItem();
 		System.out.println("clicked on Career profile list item");
 		profilePg.clickCareerProfileEditIcon();
-		
+		System.out.println("clicked on edit icon");
+
 		Thread.sleep(2000);
 		
 		if (profilePg.isCareerProfileFormPresent())

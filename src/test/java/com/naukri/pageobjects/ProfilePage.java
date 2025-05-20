@@ -7,6 +7,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -70,6 +71,8 @@ public class ProfilePage
 	
 	public void clickCareerProfileEditIcon()
 	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth'});", career_profile_edit_icon);
 		career_profile_edit_icon.click();
 	}
 		
