@@ -71,9 +71,8 @@ public class ProfilePage
 	
 	public void clickCareerProfileEditIcon()
 	{
-		JavascriptExecutor js = (JavascriptExecutor)ldriver;
-		js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth'});", career_profile_edit_icon);
-		career_profile_edit_icon.click();
+		JavascriptExecutor js = (JavascriptExecutor) ldriver;
+		js.executeScript("arguments[0].click();", career_profile_edit_icon);
 	}
 		
 	public boolean isCareerProfileFormPresent()
