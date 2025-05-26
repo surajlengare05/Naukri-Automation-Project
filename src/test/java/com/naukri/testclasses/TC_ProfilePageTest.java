@@ -1,5 +1,4 @@
 package com.naukri.testclasses;
-
 import java.awt.AWTException;
 import java.time.Duration;
 
