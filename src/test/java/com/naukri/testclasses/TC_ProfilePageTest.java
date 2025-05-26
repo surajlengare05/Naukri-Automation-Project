@@ -34,7 +34,7 @@ public class TC_ProfilePageTest
 		WebDriverManager.chromedriver().setup();
 		// Initialize ChromeOptions
         ChromeOptions options = new ChromeOptions();
-        //options.addArguments("--headless"); // Run in headless mode
+        options.addArguments("--headless"); // Run in headless mode
         options.addArguments("--no-sandbox"); // Bypass OS security model
         options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
         options.addArguments("--disable-gpu"); // Applicable to Windows OS only
