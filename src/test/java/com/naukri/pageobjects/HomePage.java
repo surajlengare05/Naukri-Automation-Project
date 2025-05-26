@@ -28,9 +28,12 @@ public class HomePage
 
 	public void clickChatCloseIcon() 
 	{
+		System.out.println(chat_close_icon.isDisplayed());
 		if (chat_close_icon.isDisplayed()) 
 		{
+			System.out.println("ChatBot popup is open");
 			chat_close_icon.click();
+			System.out.println("Clicked on close icon");
 		}
 	}
 	

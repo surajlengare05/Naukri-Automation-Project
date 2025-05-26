@@ -34,7 +34,7 @@ public class TC_ProfilePageTest
 		WebDriverManager.chromedriver().setup();
 		// Initialize ChromeOptions
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless"); // Run in headless mode
+        //options.addArguments("--headless"); // Run in headless mode
         options.addArguments("--no-sandbox"); // Bypass OS security model
         options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
         options.addArguments("--disable-gpu"); // Applicable to Windows OS only
@@ -76,6 +76,7 @@ public class TC_ProfilePageTest
 		HomePage homePg = new HomePage(driver);
 		homePg.clickViewProfileLink();
 		System.out.println("clicked on view profile");
+		homePg.clickChatCloseIcon();
 		
 		ProfilePage profilePg = new ProfilePage(driver);
 		profilePg.clickCareerProfileListItem();
