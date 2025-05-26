@@ -76,8 +76,7 @@ public class TC_ProfilePageTest
 		HomePage homePg = new HomePage(driver);
 		homePg.clickViewProfileLink();
 		System.out.println("clicked on view profile");
-		homePg.clickChatCloseIcon();
-		
+				
 		ProfilePage profilePg = new ProfilePage(driver);
 		profilePg.clickCareerProfileListItem();
 		System.out.println("clicked on Career profile list item");
