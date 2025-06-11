@@ -127,9 +127,7 @@ public class TC_ProfilePageTest
 		System.out.println("resume name -> " + resumeName);
 		
 		Assert.assertTrue(resPath.contains(resumeName));
-		
-		Thread.sleep(2000);
-		
+				
 		String resumeStatus = profilePg.getResumeUpatedOnDate();
 		String resumeDate = resumeStatus.substring(12);
 		System.out.println("resume updated -> " + resumeDate);

@@ -107,9 +107,9 @@ public class ProfilePage
 		String absolutePath = file.getAbsolutePath();
 		System.out.println("Absolute path = " + absolutePath);
 		
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		update_resume_btn.sendKeys(absolutePath);
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 	}
 	
 	public String getResumeName() 
