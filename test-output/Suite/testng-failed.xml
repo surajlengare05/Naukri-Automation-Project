@@ -13,6 +13,7 @@
           <include name="launchDriver"/>
           <include name="logout"/>
           <include name="login"/>
+          <include name="updateResume"/>
         </methods>
       </class> <!-- com.naukri.testclasses.TC_ProfilePageTest -->
     </classes>
